@@ -1,0 +1,7 @@
+{
+  name: 'Ramesh',
+  location: 'India',
+  phone: '9875462130',
+  courses: [ 'Rest API', 'Rest-Assured' ],
+  id: '0f8a'
+}

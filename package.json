@@ -6,7 +6,9 @@
     "a": "npx playwright test tests/TC018_Multiwindow.spec.js --project chromium --headed",
     "b": "npx playwright test tests/TC018_Multiwindow.spec.js --project chromium",
     "c": "npx playwright show-report",
-    "d": "npx playwright test tests/TC019_RestAPI.spec.js"
+    "d": "npx playwright test tests/TC019_RestAPI.spec.js",
+    "allure-gen":"allure generate allure-results -o allure-report --clean",
+    "allure-open":"allure open allure-report"
   },
   "keywords": [],
   "author": "",
