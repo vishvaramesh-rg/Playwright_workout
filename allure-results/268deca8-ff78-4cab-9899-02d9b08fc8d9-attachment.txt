@@ -1,0 +1,10 @@
+APIResponse: 200 OK
+  X-Powered-By: tinyhttp
+  Access-Control-Allow-Origin: *
+  Access-Control-Allow-Methods: GET, HEAD, PUT, PATCH, POST, DELETE
+  Access-Control-Allow-Headers: content-type
+  Content-Type: application/json
+  Date: Wed, 29 Jan 2025 07:43:16 GMT
+  Connection: keep-alive
+  Keep-Alive: timeout=5
+  Content-Length: 434

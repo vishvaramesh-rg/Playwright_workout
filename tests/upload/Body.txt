@@ -1,0 +1,33 @@
+json body
+
+	{
+	"students":
+	[
+	{
+	"sid":10
+	"sname":"vishva"
+	"sgrade":"B"
+	"courses":[
+	"java","python"
+	]
+	},
+	{
+	"sid":11
+	"sname":"Tamil"
+	"sgrade":"B"
+	"courses":[
+	"java","c#"
+	]
+	},
+
+	{
+	"sid":12
+	"sname":"english"
+	"sgrade":"D"
+	"courses":[
+	"Postman","c#"
+	]
+	}
+
+	]
+	}

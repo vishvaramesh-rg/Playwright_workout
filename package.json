@@ -1,0 +1,21 @@
+{
+  "name": "playwright_workout",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "a": "npx playwright test tests/TC018_Multiwindow.spec.js --project chromium --headed",
+    "b": "npx playwright test tests/TC018_Multiwindow.spec.js --project chromium",
+    "c": "npx playwright show-report",
+    "d": "npx playwright test tests/TC019_RestAPI.spec.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.50.0",
+    "@types/node": "^22.12.0",
+    "allure-playwright": "^3.0.9"
+  }
+}

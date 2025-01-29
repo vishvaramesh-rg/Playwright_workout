@@ -1,0 +1,222 @@
+{
+  "config": {
+    "configFile": "D:\\Testing\\Playwright\\Playwright_workout\\playwright.config.js",
+    "rootDir": "D:/Testing/Playwright/Playwright_workout/tests",
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "reporter": [
+      [
+        "html",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "myresult.json"
+        }
+      ],
+      [
+        "D:\\Testing\\Playwright\\Playwright_workout\\node_modules\\allure-playwright\\dist\\cjs\\index.js",
+        {
+          "outputFile": "my-allure-result"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 15000
+    },
+    "quiet": false,
+    "projects": [
+      {
+        "outputDir": "D:/Testing/Playwright/Playwright_workout/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {},
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "D:/Testing/Playwright/Playwright_workout/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "shard": null,
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.50.0",
+    "workers": 1,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "TC019_RestAPI.spec.js",
+      "file": "TC019_RestAPI.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Get Api",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "status": "passed",
+                  "duration": 168,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "[\n  {\n    id: \u001b[32m'1'\u001b[39m,\n    name: \u001b[32m'John'\u001b[39m,\n    location: \u001b[32m'india'\u001b[39m,\n    phone: \u001b[32m'1234567890'\u001b[39m,\n    courses: [ \u001b[32m'Java'\u001b[39m, \u001b[32m'Selenium'\u001b[39m ]\n  },\n  {\n    id: \u001b[32m'2'\u001b[39m,\n    name: \u001b[32m'Kim'\u001b[39m,\n    location: \u001b[32m'US'\u001b[39m,\n    phone: \u001b[32m'98876543213'\u001b[39m,\n    courses: [ \u001b[32m'Python'\u001b[39m, \u001b[32m'Appium'\u001b[39m ]\n  },\n  {\n    id: \u001b[32m'3'\u001b[39m,\n    name: \u001b[32m'Bob'\u001b[39m,\n    location: \u001b[32m'UK'\u001b[39m,\n    phone: \u001b[32m'9123456789'\u001b[39m,\n    courses: [ \u001b[32m'{{courses}}'\u001b[39m ]\n  },\n  {\n    id: \u001b[32m'3b01'\u001b[39m,\n    name: \u001b[32m'a4m80lrk8u'\u001b[39m,\n    location: \u001b[32m'India'\u001b[39m,\n    phone: \u001b[32m'5842646456'\u001b[39m,\n    courses: [ \u001b[32m'Api'\u001b[39m, \u001b[32m'Rest-Assured'\u001b[39m ]\n  }\n]\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-01-29T08:45:45.581Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "3ac6b1586136e5ad29ca-d371e055171fa465c9ef",
+          "file": "TC019_RestAPI.spec.js",
+          "line": 5,
+          "column": 5
+        },
+        {
+          "title": "post",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "status": "passed",
+                  "duration": 49,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "{\n  id: \u001b[32m'aab8'\u001b[39m,\n  name: \u001b[32m'wnj7xzqc4bt'\u001b[39m,\n  location: \u001b[32m'India'\u001b[39m,\n  phone: \u001b[32m'5842646456'\u001b[39m,\n  courses: [ \u001b[32m'Api'\u001b[39m, \u001b[32m'Rest-Assured'\u001b[39m ]\n}\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-01-29T08:45:45.765Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "3ac6b1586136e5ad29ca-a26e644710498394bc28",
+          "file": "TC019_RestAPI.spec.js",
+          "line": 14,
+          "column": 5
+        },
+        {
+          "title": "Put",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "status": "passed",
+                  "duration": 45,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "{\n  name: \u001b[32m'Ramesh'\u001b[39m,\n  location: \u001b[32m'India'\u001b[39m,\n  phone: \u001b[32m'9875462130'\u001b[39m,\n  courses: [ \u001b[32m'Rest API'\u001b[39m, \u001b[32m'Rest-Assured'\u001b[39m ],\n  id: \u001b[32m'aab8'\u001b[39m\n}\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-01-29T08:45:45.819Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "3ac6b1586136e5ad29ca-8da83cb81e8f92b017c8",
+          "file": "TC019_RestAPI.spec.js",
+          "line": 35,
+          "column": 5
+        },
+        {
+          "title": "delete",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "status": "passed",
+                  "duration": 54,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-01-29T08:45:45.878Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "3ac6b1586136e5ad29ca-65242e2d881a794bcbb8",
+          "file": "TC019_RestAPI.spec.js",
+          "line": 50,
+          "column": 5
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2025-01-29T08:45:44.258Z",
+    "duration": 1721.828,
+    "expected": 4,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}
